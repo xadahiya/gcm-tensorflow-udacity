@@ -2,7 +2,7 @@
 
 ## Server Configuration
 
-### After you sign up to Google Cloud Platform, there are three basic steps to completef:
+### After you sign up to Google Cloud Platform, there are three basic steps to complete:
 
 *  Create a Linux-based VM instance with the required hardware specs. Tutorial [here](https://cloud.google.com/compute/docs/quickstart-linux)
 * Install Software: Anaconda Python, Tensorflow and Julia.

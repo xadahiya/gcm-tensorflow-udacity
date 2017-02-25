@@ -4,7 +4,7 @@
 
 ### After you sign up to Google Cloud Platform, there are three basic steps to completef:
 
-*  Create a Linux-based VM instance with the required hardware specs. [Tutorial Here](https://cloud.google.com/compute/docs/quickstart-linux)
+*  Create a Linux-based VM instance with the required hardware specs. Tutorial [here](https://cloud.google.com/compute/docs/quickstart-linux)
 * Install Software: Anaconda Python, Tensorflow and Julia.
 * Set up Jupyter (IPython), so that you can do your MachineLearning/DataScience magic remotely via a browser.
     
@@ -138,5 +138,5 @@ and if everything went according to plan, you should see something like this:
 
 ## That’s it! Congratulations!
 
-### I just made some minor changes to make it compatible with dlnd project and tensorflow 1.0.
+### I just made some changes to make it compatible with dlnd projects.
 ### [Source](https://haroldsoh.com/2016/04/28/set-up-anaconda-ipython-tensorflow-julia-on-a-google-compute-engine-vm/)

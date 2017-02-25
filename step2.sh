@@ -1,3 +1,6 @@
+## Activate anaconda path variables in the same shell session
+source ~/.bashrc
+
 ## Install tensorflow and tqdm modules
 conda install -c conda-forge tensorflow
 conda install -c conda-forge tqdm

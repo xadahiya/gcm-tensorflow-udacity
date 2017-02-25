@@ -4,19 +4,19 @@
 
 ### After you sign up to Google Cloud Platform, there are three basic steps to completef:
 
-    1. Create a Linux-based VM instance with the required hardware specs. [Tutorial Here](https://cloud.google.com/compute/docs/quickstart-linux)
-    2. Install Software: Anaconda Python, Tensorflow and Julia.
-    3. Set up Jupyter (IPython), so that you can do your MachineLearning/DataScience magic remotely via a browser.
+*  Create a Linux-based VM instance with the required hardware specs. [Tutorial Here](https://cloud.google.com/compute/docs/quickstart-linux)
+* Install Software: Anaconda Python, Tensorflow and Julia.
+* Set up Jupyter (IPython), so that you can do your MachineLearning/DataScience magic remotely via a browser.
     
 
 ### 1. Create a Linux VM Instance
 
 GCE_CreateInstanceFollow the Quickstart guide to create a new VM instance, but note the following:
 
-    Machine type: a micro instance isn’t going to cut it for compute intensive tasks. I created a 16 vCPU machine; select what works for you. Note: if you need a machine with more than 24 cores, you’ll need to increase your quota.
-    Boot Disk: I’m more familiar with Ubuntu so, that’s what I picked (14.04 LTS). The setup instructions below assume you’re using Ubuntu.
-    Firewall: Allow HTTPS traffic.
-    Take note of the Zone and instance Name. You’ll need those them later in our final step. In this example, the zone is us-central1-f and the name is awesomeness
+* Machine type: a micro instance isn’t going to cut it for compute intensive tasks. I created a 16 vCPU machine; select what works for you. Note: if you need a machine with more than 24 cores, you’ll need to increase your quota.
+* Boot Disk: I’m more familiar with Ubuntu so, that’s what I picked (14.04 LTS). The setup instructions below assume you’re using Ubuntu.
+* Firewall: Allow HTTPS traffic.
+* Take note of the Zone and instance Name. You’ll need those them later in our final step. In this example, the zone is us-central1-f and the name is awesomeness
 
 ![google-console-image](https://haroldsoh.files.wordpress.com/2016/04/gce_createinstance.png?w=255&h=369)
 

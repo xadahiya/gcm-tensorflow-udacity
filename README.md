@@ -1,4 +1,4 @@
-# gcm-tensorflow-udacity
+# Google cloud engine VM instance setup to train deep neural networks.
 
 ## Server Configuration
 
